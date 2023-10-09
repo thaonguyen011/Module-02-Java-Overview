@@ -15,7 +15,7 @@ public class LinearEquationResolver {
         c = scanner.nextFloat();
 
         if (a == 0 ) {
-            if (c - b == 0) {
+            if (b == c) {
                 System.out.println("The solution is all x");
             } else {
                 System.out.println("No solution");
